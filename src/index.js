@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose
-  .connect("mongodb://localhost:27017/TSL-DB", {
+  .connect("mongodb+srv://nehajaiswal:neha123@nehadb.pcorgpc.mongodb.net/legalbackend", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
